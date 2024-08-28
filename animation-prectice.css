@@ -1,0 +1,222 @@
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body{
+    background: black;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/d0f52933ed605293a4cca814/fgfgfg-min.jpg);
+    z-index: 1000px;
+}
+.block1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.block1-leftbox{
+    color: white;
+    width: 40%;
+    margin-top: 140px;
+}
+.block1-leftbox form{
+    padding: 50px;
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.iMgKwAxbi3YZnyZPPolgKwHaEK&pid=Api&P=0&h=220);
+    background-size: 100% 100%;
+    z-index: 1000px;
+}
+label{
+    padding-top: 40px;
+    
+}
+.field1{
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    flex-wrap: wrap;
+}
+.field1-inp{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    height: 80px;
+    
+}
+.field2{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;  
+}
+
+.field2 input{
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding-top: 30px;
+}
+.field3{
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    height: 150px;
+    margin-left: 20px;
+    
+}
+.field3 input{
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding-top: 30px;
+}
+button{
+    width: 400px;
+    margin-left: 18px;
+    margin-top: 50px;
+    font-size: 22px;
+    height: 40px;
+    border-radius: 8%;
+    background-color: burlywood;
+    
+
+}
+
+.block2-box1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:  -100px;
+    margin-top: 50px;
+}
+.block2-box2{
+    display: flex;
+    
+}
+.block2-box-card{
+    width: 240px;
+    border: 1px solid gray;
+    border-radius: 20%;
+    height: 260px;
+    margin: 30px;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    background-color:black;
+    opacity:0.6;
+}
+.block2-box-card i{
+    font-size: 70px;
+    margin-bottom: 15px;
+    color: rgb(244, 224, 8);
+}
+.block2-box-card h3{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+.block2-box-card p{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.email-link{
+    color:rgb(244, 236, 5)
+}
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(117, 115, 115);
+    margin-top: 70px;
+}
+.footer-box{
+    text-align: center;
+    margin-top: 30px;
+}
+.footer-box h3{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 12px;
+}
+.footer-box a{
+    font-size: 22px;
+    letter-spacing: 3px;
+    color: white;
+    
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(-45deg, #4158d0, #e560dc, 
+    #ffb374, #ef5f5f, #8d40b6);
+    background-size: 400% 400%;
+    animation: bg 12s ease infinite;
+}
+@keyframes bg{
+    0%{background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+ .block2-box-card{
+    
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  button{
+    animation-name: submit;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+  }
+  @keyframes submit{
+    from{
+        background-color:#00b4d8;
+    }
+    to{
+        background-color: #90e0ef;
+    }
+  }
+
+
+
+
+
+  @media (max-width:250px){
+    button{
+        width: 100px;
+    }
+    form{
+         width: 250%;
+         
+    }
+    fieldset{
+        margin: auto;
+        
+    }
+    .fild2-inp{
+        position: relative;
+        right: 50px;
+    }
+  }
